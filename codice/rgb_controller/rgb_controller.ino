@@ -110,7 +110,7 @@ void hsvToRgb(float h, float s, float v, int &r, int &g, int &b) {
   b = constrain(b * 255, 0, 255);
 }
 
-void musicReactive(){
+/*void musicReactive(){
   static unsigned long lastSampleTime = 0;
   const unsigned long sampleInterval = 10; // 10ms
   
@@ -184,7 +184,7 @@ void musicReactive(){
     analogWrite(gPin, 255 - g);
     analogWrite(bPin, 255 - b);
   }
-}
+}*/
 
 void loop() {
   // put your main code here, to run repeatedly:
@@ -209,7 +209,7 @@ void loop() {
   else if (currentMode == 1){
     fading();
   }
-  else if (currentMode == 2){
-    musicReactive();
-  }
+  //else if (currentMode == 2){
+  //  musicReactive();
+  //}
 }
