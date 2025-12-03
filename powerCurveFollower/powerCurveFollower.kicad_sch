@@ -1,0 +1,1713 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "650557e0-cab0-4f66-9c3a-92e06620893c")
+	(paper "A3")
+	(lib_symbols
+		(symbol "TLC59281DBQ:TLC59281DBQ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.7941 25.0059 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TLC59281DBQ"
+				(at -4.3991 -33.2859 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TLC59281DBQ:SOP63P600X175-28N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "16-channel, constant-current LED driver without LED open Detection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "SSOP-24"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TLC59281DBQ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SSOP-24 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TLC59281DBQ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "69R0413"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TLC59281DBQ_0_0"
+				(rectangle
+					(start -12.7 -30.48)
+					(end 12.7 22.86)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 17.78 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "SIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "LAT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "BLANK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "IREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "OUT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "OUT7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "OUT8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "OUT9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "OUT10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "OUT11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "OUT12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "OUT13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "OUT14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -20.32 180)
+					(length 5.08)
+					(name "OUT15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -25.4 180)
+					(length 5.08)
+					(name "SOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "TLC59281DBQ:TLC59281DBQ")
+		(at 279.4 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2565982d-32c6-49cf-881b-6a58bf83d375")
+		(property "Reference" "U3"
+			(at 311.15 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLC59281DBQ"
+			(at 311.15 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLC59281DBQ:SOP63P600X175-28N"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16-channel, constant-current LED driver without LED open Detection"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SSOP-24"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLC59281DBQ"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-24 Texas Instruments"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "-"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=snap"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLC59281DBQ"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Texas Instruments"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "69R0413"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=eda"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "b89bb6f4-7d79-4901-85f1-822ec8baa667")
+		)
+		(pin "3"
+			(uuid "5e25db1e-a211-4f26-b472-ac39b18deb78")
+		)
+		(pin "2"
+			(uuid "ea25f487-2127-4e4c-b675-59b13da92dd9")
+		)
+		(pin "4"
+			(uuid "5dd3c5cf-1496-44cd-a430-03a345870b4f")
+		)
+		(pin "8"
+			(uuid "a138483e-744e-4425-99db-0ade66cc46ba")
+		)
+		(pin "11"
+			(uuid "a608c9a0-3570-46cf-86de-418db7c38285")
+		)
+		(pin "15"
+			(uuid "a67dd496-7fb5-47e1-918e-ba657c1e429e")
+		)
+		(pin "18"
+			(uuid "c179f0e9-7a14-4e77-9d1e-8ebab1af6526")
+		)
+		(pin "20"
+			(uuid "eb4653fb-15be-4541-97c4-16a87b0682d0")
+		)
+		(pin "22"
+			(uuid "65c24d4c-6564-4ee7-b89a-a84414b87084")
+		)
+		(pin "1"
+			(uuid "3aca6c98-c351-4506-b3d2-f1fb1e2e4178")
+		)
+		(pin "9"
+			(uuid "075a3784-0b50-4df9-95f1-94f035672670")
+		)
+		(pin "12"
+			(uuid "e3d72532-2f97-474f-9848-f1148830e240")
+		)
+		(pin "6"
+			(uuid "65205bff-4286-4c53-bf77-3b35821dc55c")
+		)
+		(pin "21"
+			(uuid "aef2e5a7-a553-4570-af8d-1769b5681d6f")
+		)
+		(pin "23"
+			(uuid "5c5fca0b-9b68-4544-b46d-c8884e1b5405")
+		)
+		(pin "5"
+			(uuid "70062136-cefb-4531-a9dc-a747a5e41eab")
+		)
+		(pin "7"
+			(uuid "f284f6cd-77ca-426a-8fb4-8b271528499b")
+		)
+		(pin "10"
+			(uuid "7a9184bc-aead-4179-8754-bf9fa35eae92")
+		)
+		(pin "13"
+			(uuid "0d8e349f-913f-41aa-abc1-7a4df69ee289")
+		)
+		(pin "14"
+			(uuid "b746cced-73d7-429b-b12c-23bc00ed439e")
+		)
+		(pin "16"
+			(uuid "8a2d1e4c-7a83-4774-bcf2-96832b71e38b")
+		)
+		(pin "17"
+			(uuid "294d97db-584c-4bd4-bf83-e28a441f2eda")
+		)
+		(pin "19"
+			(uuid "921a382e-3006-43d3-a865-b73cdd43d196")
+		)
+		(instances
+			(project "powerCurveFollower"
+				(path "/650557e0-cab0-4f66-9c3a-92e06620893c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC59281DBQ:TLC59281DBQ")
+		(at 135.89 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2fdc049-0a22-4172-832f-7c0624baff19")
+		(property "Reference" "U1"
+			(at 167.64 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLC59281DBQ"
+			(at 167.64 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLC59281DBQ:SOP63P600X175-28N"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16-channel, constant-current LED driver without LED open Detection"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SSOP-24"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLC59281DBQ"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-24 Texas Instruments"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "-"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=snap"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLC59281DBQ"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Texas Instruments"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "69R0413"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=eda"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "85443536-a040-41be-a3f8-a503a947bf27")
+		)
+		(pin "3"
+			(uuid "71d196e1-2240-4ac6-b1ad-5c02a54328a1")
+		)
+		(pin "2"
+			(uuid "8013e38e-7762-461e-9493-11ed919659f9")
+		)
+		(pin "4"
+			(uuid "7ec86d02-2e53-441c-ad40-be50cd297107")
+		)
+		(pin "8"
+			(uuid "15373824-933e-4c27-b22a-b89e289fbb71")
+		)
+		(pin "11"
+			(uuid "458136be-f77b-4d71-92f1-b1b60869c043")
+		)
+		(pin "15"
+			(uuid "2e62d983-e062-4788-a1b6-4111106d761f")
+		)
+		(pin "18"
+			(uuid "e67571e7-2f81-46e2-9c49-5c4f01639f93")
+		)
+		(pin "20"
+			(uuid "85a07c4e-6256-4c63-8e3a-20f631dac496")
+		)
+		(pin "22"
+			(uuid "9e073943-45dd-4e88-9626-99f78e6f25a0")
+		)
+		(pin "1"
+			(uuid "613db57d-c1a2-4952-9b01-fc2370f6f437")
+		)
+		(pin "9"
+			(uuid "16c5adaa-f94b-4975-84c5-aeee3404f4cd")
+		)
+		(pin "12"
+			(uuid "11ea7797-2c94-4e85-a627-5205d60c5ade")
+		)
+		(pin "6"
+			(uuid "ea00b862-6f5a-46a2-a571-7c8b86ea0d55")
+		)
+		(pin "21"
+			(uuid "84d0822f-9776-4a16-925c-c04eb52dc453")
+		)
+		(pin "23"
+			(uuid "8428359a-00fa-4aa2-b4bb-bf8510340c20")
+		)
+		(pin "5"
+			(uuid "55c8b395-3b9b-43a5-bf29-900ee7e9e675")
+		)
+		(pin "7"
+			(uuid "6bb9663a-b09c-480f-bb24-1b481c2a3e91")
+		)
+		(pin "10"
+			(uuid "a9ffa75c-25ec-4e09-8727-ca1d117595f0")
+		)
+		(pin "13"
+			(uuid "f747d6bb-c391-471e-8973-2a019a0bcbac")
+		)
+		(pin "14"
+			(uuid "f303deb3-3f14-424c-99a0-1cb7ac0b9569")
+		)
+		(pin "16"
+			(uuid "d869230f-abfb-418e-9cd9-b8d198f93726")
+		)
+		(pin "17"
+			(uuid "ab88851e-59cf-430a-9461-49f3f5e02346")
+		)
+		(pin "19"
+			(uuid "d8ead8d0-64dc-4431-9105-bb64011c4756")
+		)
+		(instances
+			(project ""
+				(path "/650557e0-cab0-4f66-9c3a-92e06620893c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC59281DBQ:TLC59281DBQ")
+		(at 351.79 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4528f24-56e1-4b4f-8c23-a459b7e51a7f")
+		(property "Reference" "U4"
+			(at 383.54 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLC59281DBQ"
+			(at 383.54 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLC59281DBQ:SOP63P600X175-28N"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16-channel, constant-current LED driver without LED open Detection"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SSOP-24"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLC59281DBQ"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-24 Texas Instruments"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "-"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=snap"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLC59281DBQ"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Texas Instruments"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "69R0413"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=eda"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "f85e10a8-5b9d-47cb-9542-655fe80299b2")
+		)
+		(pin "3"
+			(uuid "662b7196-530d-4471-a4f7-e8b5babd3401")
+		)
+		(pin "2"
+			(uuid "59430ecd-a4e9-4160-899b-a89a8f016a24")
+		)
+		(pin "4"
+			(uuid "de59ab8e-ba0e-4c79-b058-642c90f3b432")
+		)
+		(pin "8"
+			(uuid "c67afc76-884d-46a6-a579-bc807a1a43d5")
+		)
+		(pin "11"
+			(uuid "e2c6f820-5c0f-48d1-a5fb-af72f2e293fd")
+		)
+		(pin "15"
+			(uuid "f0712bcb-2448-4168-a783-2bccc9e26828")
+		)
+		(pin "18"
+			(uuid "61afff5d-48e1-49eb-ac1c-3f6d1a6f11f4")
+		)
+		(pin "20"
+			(uuid "b5a4182d-9e58-4999-9fbb-b221a173db34")
+		)
+		(pin "22"
+			(uuid "7628bc68-2499-4052-92f3-b507a2e3cb7c")
+		)
+		(pin "1"
+			(uuid "be797201-942d-41e5-8b3b-b666ab95741e")
+		)
+		(pin "9"
+			(uuid "673efdee-87b5-4603-ad1d-bb30699748f3")
+		)
+		(pin "12"
+			(uuid "535ce872-e698-4ae3-8209-2198cc9e19d1")
+		)
+		(pin "6"
+			(uuid "97e1dc52-fe77-45df-82f2-de8e52aa91b6")
+		)
+		(pin "21"
+			(uuid "20247d55-acce-4437-9bb8-8c18f5b65427")
+		)
+		(pin "23"
+			(uuid "fd7d4dda-56e0-486f-83a4-eac6ac8c9856")
+		)
+		(pin "5"
+			(uuid "cc056e12-ae08-43cb-a396-44ba7b5a5675")
+		)
+		(pin "7"
+			(uuid "441c3904-4552-41d9-ba4e-260b21e86fb4")
+		)
+		(pin "10"
+			(uuid "706fdc0b-5603-4c91-969e-1e3e79e1995f")
+		)
+		(pin "13"
+			(uuid "e8651195-746c-4874-848c-c599ce9bc7b2")
+		)
+		(pin "14"
+			(uuid "34e1e350-8413-4409-849c-4fc04aee2ad5")
+		)
+		(pin "16"
+			(uuid "164f057e-3707-4154-ac71-1f7763279120")
+		)
+		(pin "17"
+			(uuid "c0de7ac6-dae5-41d5-8f69-82daf90f8d75")
+		)
+		(pin "19"
+			(uuid "b3778dea-5bce-4b06-9660-5d2356489039")
+		)
+		(instances
+			(project "powerCurveFollower"
+				(path "/650557e0-cab0-4f66-9c3a-92e06620893c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC59281DBQ:TLC59281DBQ")
+		(at 208.28 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8988bb8-9faa-41d2-9dd6-92456361776d")
+		(property "Reference" "U2"
+			(at 240.03 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLC59281DBQ"
+			(at 240.03 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TLC59281DBQ:SOP63P600X175-28N"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "16-channel, constant-current LED driver without LED open Detection"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SSOP-24"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLC59281DBQ"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SSOP-24 Texas Instruments"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "-"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=snap"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLC59281DBQ"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Texas Instruments"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "69R0413"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLC59281DBQ/Texas+Instruments/view-part/?ref=eda"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "730d2e72-0169-4f70-9f99-a8e665e61b6c")
+		)
+		(pin "3"
+			(uuid "96d5911b-87cd-48b4-bbcd-3c9ced3879c7")
+		)
+		(pin "2"
+			(uuid "bf6709ea-430a-4470-ace0-a9d6be20e893")
+		)
+		(pin "4"
+			(uuid "7676d240-6469-4e49-8f05-7bffad483c59")
+		)
+		(pin "8"
+			(uuid "4fe6ec97-4d95-46c4-9b0d-9373e5fd73a8")
+		)
+		(pin "11"
+			(uuid "f1883368-ab24-4ad5-b5f9-25408d466282")
+		)
+		(pin "15"
+			(uuid "86a63bbd-1917-4fed-bc3f-3259c1f43ce7")
+		)
+		(pin "18"
+			(uuid "81d9c9fc-ffc0-47d2-ac98-d253b7c8dd39")
+		)
+		(pin "20"
+			(uuid "81ad9557-1680-4c9b-b220-c0a7cce4402c")
+		)
+		(pin "22"
+			(uuid "57f76870-7f2a-4608-80e8-514e4e712be1")
+		)
+		(pin "1"
+			(uuid "a4935051-7887-4821-bb52-38b94eaa9cc4")
+		)
+		(pin "9"
+			(uuid "1d6fc60c-6ba9-4c21-9866-446c42df1152")
+		)
+		(pin "12"
+			(uuid "9098c8e3-6755-4fee-b5cd-ce80f3c13052")
+		)
+		(pin "6"
+			(uuid "4dee2936-44ab-48e4-8f66-3cc024bdd7e7")
+		)
+		(pin "21"
+			(uuid "0da6c216-9ec9-44bb-8529-4f15961cbe31")
+		)
+		(pin "23"
+			(uuid "2010f6cd-3ad5-4e6b-898d-5d4fa85c30d8")
+		)
+		(pin "5"
+			(uuid "89396951-6f33-4475-bc05-01be7174415b")
+		)
+		(pin "7"
+			(uuid "dc2064ff-dfcc-4ccc-a347-77b882e14410")
+		)
+		(pin "10"
+			(uuid "2b772ac3-154b-4acd-9ae9-7a40549c96ea")
+		)
+		(pin "13"
+			(uuid "fdc31830-0e48-4238-9700-34aba9a6549f")
+		)
+		(pin "14"
+			(uuid "81c8a18c-5ba8-4d1e-8eaf-0af79996261a")
+		)
+		(pin "16"
+			(uuid "78f59110-8183-4f2c-9650-683ebcfb1a25")
+		)
+		(pin "17"
+			(uuid "198de935-e3de-4096-a0af-1c01f35cf58e")
+		)
+		(pin "19"
+			(uuid "dfb2cb5d-746d-453f-a715-23166ef64ec5")
+		)
+		(instances
+			(project "powerCurveFollower"
+				(path "/650557e0-cab0-4f66-9c3a-92e06620893c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
