@@ -1,0 +1,30 @@
+#include <TFT_eSPI.h>
+
+TFT_eSPI tft = TFT_eSPI();
+
+void setup() {
+  tft.init();
+  tft.setRotation(1); // Regola se necessario
+  tft.fillScreen(TFT_BLACK);
+  
+  // Dimensioni display
+  int displayWidth = 420;
+  int displayHeight = 380;
+  int margin = 7;
+  int thickness = 5;
+  
+  // Calcola coordinate del rettangolo
+  int x = margin;
+  int y = margin;
+  int width = displayWidth - (2 * margin);
+  int height = displayHeight - (2 * margin);
+  
+  // Disegna il rettangolo con linea spessa
+  for(int i = 0; i < thickness; i++) {
+    tft.drawRect(x + i, y + i, width - (2 * i), height - (2 * i), TFT_WHITE);
+  }
+}
+
+void loop() {
+  // Il tuo codice
+}
